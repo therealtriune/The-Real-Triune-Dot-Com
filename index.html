@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Triune — The Real Triune</title>
-<meta name="description" content="Triune — Los Angeles emcee, entrepreneur, and producer. Two decades in music and business, from Green Tape to the Polyester Tapes series.">
+<meta name="description" content="Triune — Los Angeles emcee, entrepreneur, and producer. Two decades in music and business.">
 
 <meta property="og:title" content="Triune — The Real Triune">
 <meta property="og:description" content="Los Angeles emcee, entrepreneur, and producer.">
@@ -12,22 +12,23 @@
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Space+Mono:wght@400;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,500;0,9..144,600;1,9..144,400;1,9..144,500&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 
 <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
-<div class="grain"></div>
-
 <header class="site-header">
-  <a href="#home" class="brand">TRIUNE</a>
+  <div class="header-left">
+    <a href="#home" class="brand">
+      <img src="images/triune-logo.png" alt="Triune" class="brand-logo">
+    </a>
+  </div>
   <nav class="main-nav">
     <button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false">
       <span></span><span></span><span></span>
     </button>
     <ul id="navList">
-      <li><a href="#home">Home</a></li>
       <li><a href="#bio">Bio</a></li>
       <li><a href="#music">Music</a></li>
       <li><a href="#photos">Photos</a></li>
@@ -41,96 +42,76 @@
 
   <!-- HERO -->
   <section id="home" class="hero">
+    <img src="images/photos/12.jpg" alt="" class="hero-bg" aria-hidden="true">
+    <div class="hero-scrim"></div>
     <div class="hero-inner">
-      <p class="eyebrow mono">Now Playing — Side A</p>
-      <h1 class="hero-title">THE REAL<br>TRIUNE</h1>
-      <p class="hero-sub">Emcee. Entrepreneur. Producer. Twenty years running tape in Southern California.</p>
+      <img src="images/triune-logo.png" alt="Triune" class="hero-logo">
+      <p class="hero-sub">Over Two Decades Of Building A Brand In Music, Culture, And Business</p>
       <div class="hero-actions">
-        <a href="#music" class="btn btn-primary">Hear the tapes</a>
-        <a href="#contact" class="btn btn-ghost">Get in touch</a>
-      </div>
-    </div>
-
-    <div class="cassette" aria-hidden="true">
-      <div class="cassette-shell">
-        <div class="cassette-label">
-          <span class="mono label-top">UNO ENT · C-90</span>
-          <div class="cassette-window">
-            <div class="reel">
-              <div class="reel-hub"></div>
-            </div>
-            <div class="reel">
-              <div class="reel-hub"></div>
-            </div>
-          </div>
-          <span class="mono label-bottom">the polyester tapes vol. 3</span>
-        </div>
+        <a href="#music" class="btn btn-primary">Listen</a>
+        <a href="#contact" class="btn btn-ghost">Contact</a>
       </div>
     </div>
   </section>
 
   <!-- BIO -->
   <section id="bio" class="bio">
-    <div class="section-head">
-      <span class="mono track-no">01</span>
-      <h2>Bio</h2>
-    </div>
-    <div class="bio-copy">
-      <p>Leader, entrepreneur, and artist — a few words that define Triune. With over two decades in music and business, he's earned widespread respect and admiration, particularly across Southern California.</p>
-      <p>His path runs through multiple industries. He's toured with KRS-One, De La Soul, and Talib Kweli, produced the podcasts <em>Worst Take The Sports Show</em> and <em>LabTalk</em>, and founded UNO Marketing, his own digital marketing firm. He also launched <em>Kicks and Cutz</em>, Southern California's first barbershop/shoe store, and invested in The Culture Coffee Company in Las Vegas.</p>
-      <p>His music has landed in over 20 television and film placements, including the theme song for CBS Sports' <em>The Money Fight</em> (Mayweather vs. McGregor) and ESPN's <em>Year of The Black QB</em>. As an independent artist, Triune has amassed over 20 million television views, 20 million streams, and 100,000+ album sales.</p>
-      <p>His latest project, <em>The Green Tape</em>, is earning national recognition — the track "Wiser Den Eva" was featured in Netflix's <em>High on the Hog</em>, an NAACP Image Award winner for Outstanding Documentary. New music is on the way.</p>
+    <div class="bio-grid">
+      <div class="bio-copy">
+        <h2>Bio</h2>
+        <p class="drop-cap">Triune is an independent recording artist whose career spans more than two decades. Known for thoughtful lyricism, soulful production, and a catalog that blends substance with timeless sound, he has built a loyal following while remaining completely independent.</p>
+        <blockquote class="pull-quote">&ldquo;More Than 50 Television And Film Placements.&rdquo;</blockquote>
+        <p>His music has been featured in more than 50 television and film placements, including the theme song for CBS Sports' <em>The Money Fight</em> (Mayweather vs. McGregor) and ESPN's <em>Year of the Black QB</em>. He has also shared the stage with legendary artists including KRS-One, De La Soul, and Talib Kweli.</p>
+        <p>As an independent artist, Triune has generated more than 20 million television views, over 20 million streams, and more than 100,000 album sales across his catalog.</p>
+        <p>His latest project, <em>The Green Tape</em>, continues to earn national recognition. The standout record "Wiser Den Eva" was featured in Netflix's <em>High on the Hog</em>, an NAACP Image Award winning documentary series. With new music on the horizon, Triune continues to create records rooted in authenticity, purpose, and longevity.</p>
+      </div>
+      <figure class="bio-figure">
+        <img src="images/photos/13.jpg" alt="Triune portrait" class="bio-photo">
+      </figure>
     </div>
   </section>
 
+
   <!-- MUSIC -->
   <section id="music" class="music">
-    <div class="section-head">
-      <span class="mono track-no">02</span>
-      <h2>Music</h2>
+    <p class="eyebrow">Discography</p>
+    <h2>Music</h2>
+    <p class="section-note">The catalog, most recent first.</p>
+    <div class="filter-row">
+      <label for="categoryFilter" class="filter-label">Filter</label>
+      <select id="categoryFilter" class="filter-select"></select>
     </div>
-    <p class="section-note">The catalog, most recent first. Tap a tape to listen.</p>
-
-    <div class="tape-grid" id="tapeGrid">
-      <!-- populated by js/main.js -->
-    </div>
+    <div class="tape-grid" id="tapeGrid"></div>
   </section>
 
   <!-- PHOTOS -->
   <section id="photos" class="photos">
-    <div class="section-head">
-      <span class="mono track-no">03</span>
-      <h2>Photos</h2>
-    </div>
-    <p class="section-note">Shot by Dion Lack &amp; edited by Triune.</p>
+    <p class="eyebrow">Editorial</p>
+    <h2>Photos</h2>
     <div class="photo-grid" id="photoGrid"></div>
   </section>
 
   <!-- PRESS -->
   <section id="press" class="press">
-    <div class="section-head">
-      <span class="mono track-no">04</span>
-      <h2>Press &amp; News</h2>
-    </div>
-    <p class="section-note">Drop your latest press links and write-ups in <span class="mono">js/main.js</span> — this section pulls from the same array so new mentions are one edit away.</p>
+    <p class="eyebrow">Coverage</p>
+    <h2>Press &amp; News</h2>
+    <p class="section-note">Add links and write-ups to the <span class="mono">press</span> array in <span class="mono">js/main.js</span>.</p>
     <ul class="press-list" id="pressList"></ul>
   </section>
 
   <!-- CONTACT -->
   <section id="contact" class="contact">
-    <div class="section-head">
-      <span class="mono track-no">05</span>
-      <h2>Contact</h2>
-    </div>
+    <p class="eyebrow">Imprint</p>
+    <h2>Contact</h2>
     <div class="contact-grid">
       <div class="contact-block">
-        <p class="mono">UNO Ent</p>
+        <p class="contact-label">UNO Ent</p>
         <p>Los Angeles, CA, USA</p>
         <p><a href="tel:+13107420912">(310) 742-0912</a></p>
         <p><a href="mailto:Triune@UNOEnt.com">Triune@UNOEnt.com</a></p>
       </div>
       <div class="contact-block socials">
-        <p class="mono">Follow</p>
+        <p class="contact-label">Follow</p>
         <ul class="social-list">
           <li><a href="https://instagram.com/itriune" target="_blank" rel="noopener">Instagram</a></li>
           <li><a href="https://www.facebook.com/iTriune" target="_blank" rel="noopener">Facebook</a></li>
@@ -148,8 +129,9 @@
 </main>
 
 <footer class="site-footer">
-  <a href="#home" class="mono">Back to top</a>
-  <p class="mono">Powered by UNO Ent · &copy; <span id="year"></span></p>
+  <img src="images/triune-logo.png" alt="Triune" class="footer-logo">
+  <a href="#home">Back to top</a>
+  <p>&copy; <span id="year"></span> UNO Ent</p>
 </footer>
 
 <script src="js/main.js"></script>
